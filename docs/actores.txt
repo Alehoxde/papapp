@@ -1,0 +1,14 @@
+Agricultor: Encargado de cosechala papa 
+Recolectar: Encargado de recoger la papa
+Cotero: Encargado de subir o bajar la papa a los medios de distribucion
+Transportador: Conduce el medio de distribucion desde los cultivos  hasta un centro de acopio o un punto de ventea
+Bodeguero:  Encargado de almacenar la papa
+Comerciante: Quien compra grandes volumenes de papa
+Comprador final: Quien compro poco volumen de papa
+Consumidor final: quien compra la papa para no revenderla
+Ministerio de agricultura: Regula los precios 
+Superintendecia de industria y comercio: Regula el mercado protegiendo los derechos del consumidor
+
+
+//Crear el diagrama de clases y de casos de eso 
+UML 
