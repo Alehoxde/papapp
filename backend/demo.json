@@ -1,0 +1,33 @@
+{
+  "tabla": "agricultor",
+  "campos": [
+    {
+      "nombre": "cedula",
+      "descripcion": "Numero de identidad"
+    },
+    {
+      "nombre": "nombre",
+      "descripcion": "Nombre completo del agricultor"
+    },
+    {
+      "nombre": "area",
+      "descripcion": "Area de papa lista de cosechar"
+    },
+    {
+      "nombre": "cultivo",
+      "descripcion": "Variedad de papa cultivada"
+    },
+    {
+      "nombre": "inversion",
+      "descripcion": "Dinero invertido en dolares"
+    },
+    {
+      "nombre": "fecha",
+      "descripcion": "Fecha inicial de siembra"
+    },
+    {
+      "nombre": "ubicacion_cultivo",
+      "descripcion": "Poligono georeferenciado de ubicacion del cultivo"
+    }
+  ]
+}

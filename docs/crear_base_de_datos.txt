@@ -1,0 +1,16 @@
+Una base de datos es un lugar para almacenar registros en un formato definido
+
+Las bases de datos relacionales guarda los datos en tables
+
+1. Voy a utilizar la base de datos postgresql 
+1.1 definir campos (datos, columnas, propiedades, que tendra la tabla de agricultor id
+id: identificador unico
+Cedula: Numero de identidad
+nombre: Nombre completo del agricultor
+area: Area de papa lista de cosechar
+cultivo: Variedad de papa vultivada
+inversion: Dinero invertido en dolares
+Fecha: inicial de siembra
+ubicacion_cultivo: Poligono georeferenciado de ubicacion_cultivo  
+//Crea una clausula  para esta tabla en la base de dato postgresql de datos postgresql con postgresql 
+1.2
