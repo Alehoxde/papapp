@@ -1,0 +1,37 @@
+@startuml
+left to right direction
+actor "Agricultor" as A
+actor "Recolector" as R
+actor "Cotero" as C
+actor "Transportador" as T
+actor "Bodeguero" as B
+actor "Comerciante" as Com
+actor "Comprador Final" as CF
+actor "Consumidor Final" as Con
+actor "Ministerio de Agricultura" as Min
+actor "Superintendencia" as Sup
+
+rectangle "Sistema de Cadena de Papa" {
+  usecase "Registrar siembra" as UC1
+  usecase "Recoger papa" as UC2
+  usecase "Cargar papa al vehículo" as UC3
+  usecase "Transportar a centro de acopio" as UC4
+  usecase "Almacenar papa" as UC5
+  usecase "Comprar grandes volúmenes" as UC6
+  usecase "Comprar pequeño volumen" as UC7
+  usecase "Comprar para consumo" as UC8
+  usecase "Regular precios" as UC9
+  usecase "Supervisar mercado" as UC10
+
+  A --> UC1
+  R --> UC2
+  C --> UC3
+  T --> UC4
+  B --> UC5
+  Com --> UC6
+  CF --> UC7
+  Con --> UC8
+  Min --> UC9
+  Sup --> UC10
+}
+@enduml

@@ -1,0 +1,60 @@
+@startuml
+class Agricultor {
+  +int id
+  +string cedula
+  +string nombre
+  +string area
+  +string cultivo
+  +float inversion
+  +string fecha
+  +string ubicacion_cultivo
+}
+
+class Recolector {
+  +id, cedula, nombre
+  +zona_asignada
+  +jornada
+}
+
+class Cotero {
+  +medio_transporte
+  +capacidad
+}
+
+class Transportador {
+  +vehiculo_placa
+  +ruta_asignada
+}
+
+class Bodeguero {
+  +nombre_bodega
+  +capacidad_almacenamiento
+}
+
+class Comerciante {
+  +volumen_compra
+  +direccion_comercial
+}
+
+class CompradorFinal {
+  +cantidad_comprada
+  +punto_venta
+}
+
+class ConsumidorFinal {
+  +preferencias
+  +frecuencia_compra
+}
+
+class MinisterioAgricultura {
+  +region_regulada
+  +precio_referencia
+}
+
+class Superintendencia {
+  +sector_regulado
+  +ultima_inspeccion
+}
+
+note top of Agricultor : Cada actor es independiente,\nsin herencia directa.
+@enduml
