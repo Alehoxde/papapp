@@ -38,7 +38,8 @@ class AgricultorBase(BaseModel):
 
 class AgricultorOut(AgricultorBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # Recolector
 class RecolectorBase(BaseModel):
@@ -47,7 +48,8 @@ class RecolectorBase(BaseModel):
     jornada: Optional[str] = None
 class RecolectorOut(RecolectorBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # Cotero
 class CoteroBase(BaseModel):
@@ -56,7 +58,8 @@ class CoteroBase(BaseModel):
     capacidad: Optional[str] = None
 class CoteroOut(CoteroBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # Transportador
 class TransportadorBase(BaseModel):
@@ -65,7 +68,8 @@ class TransportadorBase(BaseModel):
     ruta_asignada: Optional[str] = None
 class TransportadorOut(TransportadorBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # Bodeguero
 class BodegueroBase(BaseModel):
@@ -74,7 +78,8 @@ class BodegueroBase(BaseModel):
     capacidad_almacenamiento: Optional[float] = None
 class BodegueroOut(BodegueroBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # Comerciante
 class ComercianteBase(BaseModel):
@@ -83,7 +88,8 @@ class ComercianteBase(BaseModel):
     direccion_comercial: Optional[str] = None
 class ComercianteOut(ComercianteBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # CompradorFinal
 class CompradorFinalBase(BaseModel):
@@ -92,7 +98,8 @@ class CompradorFinalBase(BaseModel):
     punto_venta: Optional[str] = None
 class CompradorFinalOut(CompradorFinalBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # ConsumidorFinal
 class ConsumidorFinalBase(BaseModel):
@@ -101,7 +108,8 @@ class ConsumidorFinalBase(BaseModel):
     frecuencia_compra: Optional[str] = None
 class ConsumidorFinalOut(ConsumidorFinalBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # MinisterioAgricultura
 class MinisterioBase(BaseModel):
@@ -110,7 +118,8 @@ class MinisterioBase(BaseModel):
     precio_referencia: Optional[float] = None
 class MinisterioOut(MinisterioBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # Superintendencia
 class SuperintendenciaBase(BaseModel):
@@ -119,7 +128,8 @@ class SuperintendenciaBase(BaseModel):
     ultima_inspeccion: Optional[str] = None
 class SuperintendenciaOut(SuperintendenciaBase):
     id: int
-    class Config: from_attributes = True
+    class Config:
+        orm_mode = True
 
 # ---------- CRUD ENDPOINTS PARA CADA ACTOR ----------
 # AGRICULTOR

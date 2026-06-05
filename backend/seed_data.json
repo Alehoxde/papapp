@@ -1,0 +1,52 @@
+{
+  "agricultores": [
+    {"cedula": "1001001001", "nombre": "Ana Gómez", "area": "5 ha", "cultivo": "Papa Andina", "inversion": 3500.0, "fecha": "2025-01-15", "ubicacion_cultivo": "POLYGON((-74.0 4.6, -73.9 4.6, -73.9 4.7, -74.0 4.7, -74.0 4.6))"},
+    {"cedula": "1001001002", "nombre": "Carlos Martínez", "area": "3.5 ha", "cultivo": "Papa R12", "inversion": 2200.0, "fecha": "2025-02-01", "ubicacion_cultivo": "POLYGON((-74.2 4.5, -74.1 4.5, -74.1 4.55, -74.2 4.55, -74.2 4.5))"},
+    {"cedula": "1001001003", "nombre": "María Ruiz", "area": "6 ha", "cultivo": "Papa Suprema", "inversion": 4800.0, "fecha": "2024-11-20", "ubicacion_cultivo": "POLYGON((-74.05 4.62, -73.95 4.62, -73.95 4.68, -74.05 4.68, -74.05 4.62))"}
+  ],
+  "recolectores": [
+    {"cedula": "2002002001", "nombre": "Jorge Pérez", "zona_asignada": "Zona Norte", "jornada": "Diurna"},
+    {"cedula": "2002002002", "nombre": "Laura Castillo", "zona_asignada": "Zona Sur", "jornada": "Nocturna"},
+    {"cedula": "2002002003", "nombre": "Miguel Torres", "zona_asignada": "Zona Centro", "jornada": "Diurna"}
+  ],
+  "coteros": [
+    {"cedula": "3003003001", "nombre": "Ricardo Vega", "medio_transporte": "Carreta", "capacidad": "2 ton"},
+    {"cedula": "3003003002", "nombre": "Diana Ríos", "medio_transporte": "Camión pequeño", "capacidad": "4 ton"},
+    {"cedula": "3003003003", "nombre": "Óscar Peña", "medio_transporte": "Camión grande", "capacidad": "10 ton"}
+  ],
+  "transportadores": [
+    {"cedula": "4004004001", "nombre": "Luis Fernández", "vehiculo_placa": "ABC-123", "ruta_asignada": "Ruta 1"},
+    {"cedula": "4004004002", "nombre": "Sofía Morales", "vehiculo_placa": "DEF-456", "ruta_asignada": "Ruta 2"},
+    {"cedula": "4004004003", "nombre": "Andrés Molina", "vehiculo_placa": "GHI-789", "ruta_asignada": "Ruta 3"}
+  ],
+  "bodegueros": [
+    {"cedula": "5005005001", "nombre": "Héctor Salas", "nombre_bodega": "Bodega Central", "capacidad_almacenamiento": 120.0},
+    {"cedula": "5005005002", "nombre": "Paola Jiménez", "nombre_bodega": "Bodega Norte", "capacidad_almacenamiento": 60.0},
+    {"cedula": "5005005003", "nombre": "Tomás Blanco", "nombre_bodega": "Bodega Sur", "capacidad_almacenamiento": 80.0}
+  ],
+  "comerciantes": [
+    {"cedula": "6006006001", "nombre": "Empresa A S.A.", "volumen_compra": "5 ton/mes", "direccion_comercial": "Calle 10 #5-20"},
+    {"cedula": "6006006002", "nombre": "Mercados del Valle", "volumen_compra": "2 ton/mes", "direccion_comercial": "Av. Principal 45"},
+    {"cedula": "6006006003", "nombre": "Distribuciones Rápidas", "volumen_compra": "8 ton/mes", "direccion_comercial": "Km 3 Via"}
+  ],
+  "compradores_finales": [
+    {"cedula": "7007007001", "nombre": "Restaurante Los Alpes", "cantidad_comprada": "200 kg", "punto_venta": "Restaurante"},
+    {"cedula": "7007007002", "nombre": "Panadería La Espiga", "cantidad_comprada": "50 kg", "punto_venta": "Panadería"},
+    {"cedula": "7007007003", "nombre": "Tienda El Pueblo", "cantidad_comprada": "120 kg", "punto_venta": "Tienda"}
+  ],
+  "consumidores_finales": [
+    {"cedula": "8008008001", "nombre": "Familia Gómez", "preferencias": "Papa criolla", "frecuencia_compra": "Semanal"},
+    {"cedula": "8008008002", "nombre": "Luis Ortega", "preferencias": "Papa blanca", "frecuencia_compra": "Mensual"},
+    {"cedula": "8008008003", "nombre": "Claudia Peña", "preferencias": "Papa amarilla", "frecuencia_compra": "Quincenal"}
+  ],
+  "ministerio_agricultura": [
+    {"cedula": "9009009001", "nombre": "Ministerio Regional 1", "region_regulada": "Región Andina", "precio_referencia": 0.35},
+    {"cedula": "9009009002", "nombre": "Ministerio Regional 2", "region_regulada": "Región Caribe", "precio_referencia": 0.28},
+    {"cedula": "9009009003", "nombre": "Ministerio Regional 3", "region_regulada": "Región Pacífica", "precio_referencia": 0.32}
+  ],
+  "superintendencias": [
+    {"cedula": "9109109101", "nombre": "Superintendencia Norte", "sector_regulado": "Comercialización", "ultima_inspeccion": "2025-05-10"},
+    {"cedula": "9109109102", "nombre": "Superintendencia Sur", "sector_regulado": "Transporte", "ultima_inspeccion": "2025-04-02"},
+    {"cedula": "9109109103", "nombre": "Superintendencia Centro", "sector_regulado": "Almacenamiento", "ultima_inspeccion": "2025-03-18"}
+  ]
+}
